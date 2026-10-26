@@ -1,7 +1,7 @@
 # LongRangeToricCode
 Monte Carlo simulations of long range toric code at finite temperature: evidence for topological order and self-correcting quantum memory.
 
-This repository contains the code used to perform classical Monte Carlo simulations of thermal dynamics in the long-range toric code, which is a model of the toric-code with additional large-loop stabilizers designed to preserve topological order at finite temperature. The simulations are performed in the magnetic sector, i.e. the Z-sector of the Hamiltonian, so thermal dynamics reduces to classical Gibbs/Metropolis sampling. The Hamiltonian is defined on an L x L square lattice with spins on links. The terms in the Hamiltonian are square Wilson loops, i.e. the products of Pauli-Z operators around the links of a square, with a coupling that decays as a power law with perimeter of the square.
+This repository contains code to simulate thermal dynamics in the long-range toric code, a system that has topological order at finite temperature. The simulations are performed in the magnetic sector, i.e. the Z-sector of the Hamiltonian, so thermal dynamics reduces to classical Monte Carlo sampling. The Hamiltonian is defined on an L x L square lattice with spins on links. The terms in the Hamiltonian are square Wilson loops, i.e. the products of Pauli-Z operators around the links of a square, with a coupling that decays as a power law with perimeter of the square.
 
 Several properties of the finite-temperature phase are measured from these Monte Carlo simulations:
 
